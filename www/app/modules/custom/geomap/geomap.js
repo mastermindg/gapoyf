@@ -29,7 +29,7 @@ function geomap_form(form, form_state) {
   try {
     form.elements['searchfield'] = {
 		type: 'textfield',
-		title: 'Enter Address...',
+		default_value: 'Enter Address...',
 		attributes: {
 			onkeypress: "drupalgap_form_onkeypress('" + form.id + "')"
 		},
