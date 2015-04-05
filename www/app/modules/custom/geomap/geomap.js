@@ -38,7 +38,7 @@ function geomap_form(form, form_state) {
 	};
     form.elements['submit'] = {
 		type: 'submit',
-		value: 'Search',
+		value: 'Search it',
 		  prefix: '<div class="ui-block-b">',
 		  suffix: '</div><!-- block b --></div><!-- grid a -->'
 	};     
